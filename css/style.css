@@ -1,0 +1,219 @@
+html, body {
+    min-height: 100%;
+    background-color: #ededed;
+}
+
+p {
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+h1, h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+h2 .firstname {
+    color: #b24300;
+}
+
+h1 {
+    font-size: 26px;
+    color: #516f8c;
+}
+
+.fill {
+    min-height: 100%;
+}
+
+.mx-auto {
+    width: 800px;
+    background-color: white;
+}
+
+
+.row {
+    margin: 0px;
+    width: 802px;
+
+    background: -webkit-gradient(linear, center 0px, center 315px, from(#b7c1ca), to(#b3bac2));
+    background: -o-linear-gradient(top, #b7c1ca 0px, #b3bac2 315px);
+    background: -ms-linear-gradient(top, #b7c1ca 0px, #b3bac2 315px);
+    background: -moz-linear-gradient(top, #b7c1ca 0px, #b3bac2 315px);
+    background: -webkit-linear-gradient(top, #b7c1ca 0px, #b3bac2 315px);
+    background: linear-gradient(top, #b7c1ca 0px, #b3bac2 315px);
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #243140;
+    color: white;
+
+    background: -webkit-gradient(linear, center 0px, center 315px, from(#34495e), to(#243140));
+    background: -o-linear-gradient(top, #34495e 0px, #243140 315px);
+    background: -ms-linear-gradient(top, #34495e 0px, #243140 315px);
+    background: -moz-linear-gradient(top, #34495e 0px, #243140 315px);
+    background: -webkit-linear-gradient(top, #34495e 0px, #243140 315px);
+    background: linear-gradient(top, #34495e 0px, #243140 315px);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34495e', endColorstr='#243140', GradientType=0);
+}
+
+.content {
+    width: 550px;
+    color: #34495e;
+
+    background: -webkit-gradient(linear, 300px top,550px bottom, from(#ffffff), to(#f1f4f7));
+    background: -o-linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
+    background: -ms-linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
+    background: -moz-linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
+    background: -webkit-linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
+    background: linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f4f7', GradientType=1);
+}
+
+
+.avatar {
+    width: 175px;
+    margin: 0px;
+    border: 2px solid white;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    margin: 50px auto;
+
+    background: -webkit-gradient(linear, center top, center bottom, from(#415f7d), to(#516f8c));
+    background: -o-linear-gradient(#415f7d, #516f8c);
+    background: -ms-linear-gradient(#415f7d, #516f8c);
+    background: -moz-linear-gradient(#415f7d, #516f8c);
+    background: -webkit-linear-gradient(#415f7de, #516f8c);
+    background: linear-gradient(#415f7de, #516f8c);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#415f7d', endColorstr='#516f8c', GradientType=0);
+}
+
+
+.sidebar .section {
+    float: right;
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar .section h4 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+.sidebar .section p {
+    font-size: 14px;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+    width: 215px;
+}
+
+.sidebar .contact {
+    font-size: 14px;
+    color: white;
+    padding: 2px 0px 2px 28px;
+    background: no-repeat 0px 2px;
+}
+
+.contact.address { background-image: url("images/ico-address.png"); background-position: 0px 3px; }
+.contact.phone { background-image: url("images/ico-phone.png"); background-position: 0px 3px; }
+.contact.email { background-image: url("images/ico-email.png"); background-position: 0px 4px; }
+.contact.linkedin { background-image: url("images/ico-linkedin.png"); }
+.contact.github { background-image: url("images/ico-github.png"); }
+.contact.hackerrank { background-image: url("images/ico-hackerrank.png"); }
+
+.sidebar .pdf {
+    float: left;
+    background: url("images/ico-pdf.png") no-repeat;
+    width: 48px;
+    height: 62px;
+    margin: 20px 0px 20px 101px;
+}
+.sidebar .pdf:hover {
+    text-decoration: none;
+}
+
+@media print
+{
+    .no-print, .no-print * { visibility: hidden !important; }
+    body, html, .fill { height: 100%; }
+}
+
+
+.content .section {
+    width: 520px;
+}
+
+.content h4 {
+    margin: 0px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #243140;
+    font-size: 25px;
+}
+
+.content .section img {
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: white;
+    border: 2px solid #243140;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    position: relative;
+    top: 22px;
+    left: 5px;
+}
+
+.content p {
+    color: black;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+
+.titlebox {
+    margin: 20px 0px 5px 0px;
+    float: left;
+    width: 100%;
+}
+
+.titlebox h3 {
+    color: #b24300;
+    float: left;
+    margin: 0px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.titlebox small {
+    font-size: 12px;
+    float: right;
+    color: #34495e;
+}
+
+.content .technologies {
+    background: url("images/ico-technologies.png") no-repeat 50px 2px;
+    text-indent: 28px;
+}
+
+.content .timeline {
+    background: url("images/timeline.png") no-repeat 18px -6px;
+}
+
+.content .timeline.first {
+    background: url("images/timeline-first.png") no-repeat 18px -6px;
+}
