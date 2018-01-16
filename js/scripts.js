@@ -9,6 +9,6 @@ function reveal(cls, tokens) {
 }
 
 window.onload = function() {
-    reveal('phone', ['p=+', 'm=-']);
-    reveal('email', ['a=@', 'd=.']);
+    reveal('phone', ['p=+', 'm=-', 'c=36', 's=70']);
+    reveal('mail', ['a=@', 'd=.', 'm=gmail']);
 }

@@ -127,7 +127,7 @@ h1 {
 
 .contact.address { background-image: url("images/ico-address.png"); background-position: 0px 3px; }
 .contact.phone { background-image: url("images/ico-phone.png"); background-position: 0px 3px; }
-.contact.email { background-image: url("images/ico-email.png"); background-position: 0px 4px; }
+.contact.mail { background-image: url("images/ico-email.png"); background-position: 0px 4px; }
 .contact.linkedin { background-image: url("images/ico-linkedin.png"); }
 .contact.github { background-image: url("images/ico-github.png"); }
 .contact.hackerrank { background-image: url("images/ico-hackerrank.png"); }
