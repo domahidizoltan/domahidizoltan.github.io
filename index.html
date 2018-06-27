@@ -17,9 +17,10 @@
     <meta name="keywords" content="senior java developer, senior backend developer, microservices, AWS, Amazon Web Services, AWS cloud, Spring Boot, Spring Cloud, Java8, TDD, Test Driven Development, Clean Code, Python">
     <meta name=”revisit-after” content=”1 month”>
 
-    <link href="css/bootstrap-4.0.0-beta.3.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -27,6 +28,7 @@
 <div class="mx-auto fill">
     <div class="row fill">
         <div class="sidebar fill">
+            <div class="curtain"></div>
 
             <div class="avatar">
                 <img title="Zoltan Domahidi" src="images/zoltan-domahidi.png">
@@ -59,7 +61,7 @@
                     &ndash; Romanian + +<br/>
                     &ndash; German - -</p>
                 <p>Fan of Clean Code & TDD</p>
-                <p>Learning Python</p>
+                <p>Learning Kotlin and Python</p>
             </div>
 
             <a class="pdf no-print" title="download as PDF" href="cv_zoltan_domahidi_senior_java_developer.pdf" target="_blank">&nbsp;</a>
@@ -67,17 +69,30 @@
         </div>
 
         <div class="content fill">
+            <div class="curtain"></div>
+
             <h2><span class="firstname">Zoltán</span> Domahidi</h2>
             <h1>Senior Java developer</h1>
 
-            <div class="section">
+            <div class="section" id="work-experience">
                 <img src="css/images/ico-suitcase.png" title="work experience"/>
                 <h4>Work Experience</h4>
 
                 <div class="timeline">
                     <div class="titlebox">
+                        <h3>Senior Java developer @S.S.P.</h3>
+                        <small>Budapest (HU), '18.04 - ...</small>
+                    </div>
+                    <p>&ndash; development and maintenance of an apparel recommendation system at Secret Sauce Partners</p>
+                    <p class="technologies">Java8, Dropwizard, Guice, Hibernate, PostgreSQL, Spring Boot,
+                        <small>Kafka, Docker, Kubernetes, AWS, Maven, Git, Circle CI, JUnit, TDD, CleanCode</small>
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <div class="titlebox">
                         <h3>Senior Java developer @Evosoft</h3>
-                        <small>Budapest (HU), '14.11 - ...</small>
+                        <small>Budapest (HU), '14.11 - '18.04</small>
                     </div>
                     <p>&ndash; design and development of a cloud based Industry 4.0 project for MindSphere, Siemens (stream processing)</p>
                     <p>&ndash; in-house presentations about: Clean Code, TDD, Spring Integration, Spring XD, Redis, ScalaJS</p>
@@ -87,7 +102,6 @@
                         JUnit, Mockito, CDC (Pact), BDD (Cucumber), Pair programming (TDD ping-pong)</small>
                     </p>
                 </div>
-
 
                 <div class="timeline">
                     <div class="titlebox">
@@ -100,7 +114,6 @@
                     </p>
                 </div>
 
-
                 <div class="timeline">
                     <div class="titlebox">
                         <h3>Java developer @Cit Systems</h3>
@@ -110,7 +123,7 @@
                     <p class="technologies">Java6, Jsp, MySQL, JavaScript, <small>Android SDK, SVN</small></p>
                 </div>
 
-                <div class="timeline">
+                <div class="timeline no-print">
                     <div class="titlebox">
                         <h3>PHP developer @Russmedia</h3>
                         <small>Oradea (RO), '10.06 - '11.09</small>
@@ -119,7 +132,7 @@
                     <p class="technologies">CodeIgniter (PHP), MySQL, JQuery, <small>SVN</small></p>
                 </div>
 
-                <div class="timeline first">
+                <div class="timeline no-print">
                     <div class="titlebox">
                         <h3>PHP developer @Emerigos</h3>
                         <small>Oradea (RO), '05.06 - '10.06</small>
