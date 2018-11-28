@@ -24,7 +24,6 @@ function animateCurtain() {
 
 
 window.onload = function() {
-    reveal('phone', ['p=+', 'm=-', 'c=36', 's=70']);
     reveal('mail', ['a=@', 'd=.', 'm=gmail']);
 
     setTimeout(animateCurtain, 500)
