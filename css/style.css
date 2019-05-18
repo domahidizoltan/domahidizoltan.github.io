@@ -171,6 +171,11 @@ h1 {
     }
 }
 
+@media screen
+{
+    .no-screen, .no-screen * { display:none; visibility: hidden !important; }
+}
+
 .content .curtain {
     width: 552px;
 }
@@ -251,6 +256,10 @@ h1 {
 .content .timeline {
     background: url("images/timeline.png") no-repeat 522px -6px;
     padding-right: 35px;
+}
+
+.content .timeline p {     
+    padding-bottom: 0px; 
 }
 
 .content .timeline:last-child {
