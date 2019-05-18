@@ -166,7 +166,7 @@ h1 {
 {
     .no-print, .no-print * { display:none; visibility: hidden !important; }
     body, html, .fill { height: 100%; }
-    .content .timeline:nth-child(6) {
+    .content .timeline:nth-child(7) {
         background: url("images/timeline-first.png") no-repeat 522px -6px;
     }
 }
