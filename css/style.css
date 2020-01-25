@@ -94,27 +94,19 @@ h1 {
     width: 175px;
     margin: 0px;
     border: 2px solid white;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    margin: 50px auto;
-
-    background: -webkit-gradient(linear, center top, center bottom, from(#415f7d), to(#516f8c));
-    background: -o-linear-gradient(#415f7d, #516f8c);
-    background: -ms-linear-gradient(#415f7d, #516f8c);
-    background: -moz-linear-gradient(#415f7d, #516f8c);
-    background: -webkit-linear-gradient(#415f7de, #516f8c);
-    background: linear-gradient(#415f7de, #516f8c);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#415f7d', endColorstr='#516f8c', GradientType=0);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 40px;
 
         -ms-transition:     -ms-transform .4s ease-in-out;
     -webkit-transition: -webkit-transform .4s ease-in-out;
             transition:         transform .4s ease-in-out;
 }
 .avatar:hover {
-      -ms-transform: rotate(20deg) scale(1.05);
-  -webkit-transform: rotate(20deg) scale(1.05);
-          transform: rotate(20deg) scale(1.05);
+      -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 
