@@ -142,6 +142,7 @@ h1 {
 .contact.linkedin { background-image: url("images/ico-linkedin.png"); }
 .contact.github { background-image: url("images/ico-github.png"); }
 .contact.hackerrank { background-image: url("images/ico-hackerrank.png"); }
+.contact.codersrank { background-image: url("images/ico-codersrank.png"); }
 
 .sidebar .pdf {
     float: left;
@@ -154,11 +155,15 @@ h1 {
     text-decoration: none;
 }
 
+@page {
+    size: A4;
+    margin: 0;
+}
 @media print
 {
     .no-print, .no-print * { display:none; visibility: hidden !important; }
-    body, html, .fill { height: 100%; }
-    .content .timeline:nth-child(6) {
+    body, html, .fill { height: 600mm; }
+    .content .timeline:nth-child(8) {
         background: url("images/timeline-first.png") no-repeat 522px -6px;
     }
 }
@@ -235,7 +240,7 @@ h1 {
 
 .titlebox small {
     font-size: 14px;
-    widht: 50%;
+    /* width: 50%; */
     float: right;
     color: #34495e;
 }
@@ -254,7 +259,7 @@ h1 {
     padding-bottom: 0px; 
 }
 
-.content .timeline:last-child {
+.content .timeline:last-child, .content .timeline.first {
     background: url("images/timeline-first.png") no-repeat 522px -6px;
     padding-right: 35px;
 }
