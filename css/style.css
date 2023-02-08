@@ -8,20 +8,31 @@ p {
     padding-bottom: 5px;
 }
 
-h1, h2 {
+.content > div {
+    animation: fadeInDownBig;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+}
+.content h1, .content h4 {
     font-family: 'Maven Pro', sans-serif;
     font-weight: bold;
-    width: 100%;
+    width: 350px;
     text-align: right;
     padding-right: 30px;
+    margin-left: 200px;
+    
+    animation: backInLeft;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
 }
 
-h2 {
+.content h4 {
     font-size: 40px;
     margin-top: 20px;
 }
 
-h2 .firstname {
+.content h4 .firstname {
     color: #b24300;
 }
 
@@ -39,15 +50,9 @@ h1 {
     background-color: white;
 }
 
-.curtain {
-    background: #ededed;
-    height: 100%;
-    position: absolute;
-    z-index: 100;
-}
-
 .row {
     margin: 0px;
+    padding-left: 2px;
     width: 802px;
 
     background: -webkit-gradient(linear, center 0px, center 315px, from(#b7c1ca), to(#b3bac2));
@@ -58,10 +63,96 @@ h1 {
     background: linear-gradient(top, #b7c1ca 0px, #b3bac2 315px);
 }
 
+.content {
+    width: 550px;
+    color: #34495e;
+    padding-left: 15px;
+    padding-bottom: 20px;
+
+    background: -webkit-gradient(linear, 0px top, 250px bottom, from(#f1f4f7), to(#ffffff));
+    background: -o-linear-gradient(left, #f1f4f7 0px, #ffffff 250px);
+    background: -ms-linear-gradient(left, #f1f4f7 0px, #ffffff 250px);
+    background: -moz-linear-gradient(left, #f1f4f7 0px, #ffffff 250px);
+    background: -webkit-linear-gradient(left, #f1f4f7 0px, #ffffff 250px);
+    background: linear-gradient(left, #f1f4f7 0px, #ffffff 250px);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f4f7', endColorstr='#ffffff', GradientType=1);
+}
+
+.content h2 {
+    margin: 0px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #243140;
+    font-size: 25px;
+}
+
+
+.content h3 {
+    color: #b24300;
+    float: left;
+    width: 100%;
+    height: 25px;
+    display: inline;
+    overflow: hidden;
+    margin: 20px 10px 0px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content h5 {
+    font-size: 16px;
+    /*width: 245px;*/
+    margin-left: 10px;
+    margin-bottom: 5px;
+    float: left;
+    color: #34495e;
+}
+
+.content p {
+    color: black;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.content .technologies {
+    font-size: 14px;
+}
+
+.content small.period {
+    font-size: 14px;
+    /*width: 250px;*/
+    float: right;
+    color: #34495e;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.content small.period + br {
+    padding: 7px 0px;
+    content: "";
+    display: block;
+    margin: 30px 0px;
+}
+
+.content p a {
+    color: #34495e;
+    text-decoration: underline;
+}
+
+.sidebar > div {
+    animation: fadeInDownBig;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-out;
+}
 .sidebar {
+    float: left;
     width: 250px;
+    padding: 0px 10px 20px 0px;
     background-color: #243140;
     color: white;
+    float: right;
 
     background: -webkit-gradient(linear, center 0px, center 315px, from(#34495e), to(#243140));
     background: -o-linear-gradient(top, #34495e 0px, #243140 315px);
@@ -72,23 +163,73 @@ h1 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34495e', endColorstr='#243140', GradientType=0);
 }
 
-.sidebar .curtain {
-    width: 250px;
+.sidebar .summary {
+    margin-left: 0px;
+    width: 230px;
 }
 
-.content {
-    width: 550px;
-    color: #34495e;
-
-    background: -webkit-gradient(linear, 300px top,550px bottom, from(#ffffff), to(#f1f4f7));
-    background: -o-linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
-    background: -ms-linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
-    background: -moz-linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
-    background: -webkit-linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
-    background: linear-gradient(left, #ffffff 300px, #f1f4f7 550px);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f4f7', GradientType=1);
+.sidebar h4 {
+    padding-bottom: 5px;
+    padding-left: 15px;
+    margin-top: 30px;
+    border-bottom: 2px solid white;
 }
 
+.sidebar p {
+    font-size: 14px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    width: 215px;
+}
+
+.sidebar .contact {
+    font-size: 14px;
+    color: white;
+    padding: 2px 0px 2px 33px;
+    background: no-repeat 0px 2px;
+}
+
+
+.pdf, .pdf-ats {
+    float: left;
+    background: url("images/ico-pdf.png") no-repeat;
+    width: 48px;
+    height: 62px;
+    margin: 40px 0px 20px 80px;
+
+    animation: tada;
+    animation-delay: 5s;
+    animation-duration: 10s; /*10% movement, 90% delay*/
+    animation-iteration-count: infinite;
+}
+.pdf:hover, .pdf-ats:hover {
+    text-decoration: none;
+}
+.sidebar small {
+    width: 215px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.pdf-ats {
+    background-size: 24px 31px;
+    width: 24px;
+    height: 31px;
+    margin-left: 95px;
+    margin-top: 10px;
+
+    animation-delay: 10s;
+}
+
+@keyframes tada {
+    from { transform: scale3d(1, 1, 1) }    
+    1%, 2% { transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg) }
+    3%, 5%, 7%, 9% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg) }
+    4%, 6%, 8% { transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg) }
+    10%, to { transform: scale3d(1, 1, 1) }
+}
 
 .avatar {
     width: 175px;
@@ -97,11 +238,16 @@ h1 {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    margin: 40px;
+    margin: 27px 40px 20px 40px;
 
         -ms-transition:     -ms-transform .4s ease-in-out;
     -webkit-transition: -webkit-transform .4s ease-in-out;
             transition:         transform .4s ease-in-out;
+    
+    animation: backInRight;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 .avatar:hover {
       -ms-transform: scale(1.05);
@@ -109,51 +255,13 @@ h1 {
           transform: scale(1.05);
 }
 
-
-.sidebar .section {
-    float: right;
-    width: 230px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.sidebar .section h4 {
-    padding-bottom: 5px;
-    border-bottom: 2px solid white;
-}
-
-.sidebar .section p {
-    font-size: 14px;
-    padding-bottom: 3px;
-    margin-bottom: 0px;
-    width: 215px;
-}
-
-.sidebar .contact {
-    font-size: 14px;
-    color: white;
-    padding: 2px 0px 2px 28px;
-    background: no-repeat 0px 2px;
-}
-
-.contact.address { background-image: url("images/ico-address.png"); background-position: 0px 3px; }
-.contact.phone { background-image: url("images/ico-phone.png"); background-position: 0px 3px; }
-.contact.mail { background-image: url("images/ico-email.png"); background-position: 0px 5px; }
-.contact.linkedin { background-image: url("images/ico-linkedin.png"); }
-.contact.github { background-image: url("images/ico-github.png"); }
-.contact.hackerrank { background-image: url("images/ico-hackerrank.png"); }
-.contact.codersrank { background-image: url("images/ico-codersrank.png"); }
-
-.sidebar .pdf {
-    float: left;
-    background: url("images/ico-pdf.png") no-repeat;
-    width: 48px;
-    height: 62px;
-    margin: 20px 0px 20px 101px;
-}
-.sidebar .pdf:hover {
-    text-decoration: none;
-}
+.contact.address { background-image: url("images/ico-address.png"); background-position: 10px 3px; }
+.contact.phone { background-image: url("images/ico-phone.png"); background-position: 10px 3px; }
+.contact.mail { background-image: url("images/ico-email.png"); background-position: 10px 5px; }
+.contact.linkedin { background-image: url("images/ico-linkedin.png"); background-position: 10px; }
+.contact.github { background-image: url("images/ico-github.png"); background-position: 10px; }
+.contact.hackerrank { background-image: url("images/ico-hackerrank.png"); background-position: 10px; }
+.contact.codersrank { background-image: url("images/ico-codersrank.png"); background-position: 10px; }
 
 @page {
     size: A4;
@@ -162,104 +270,12 @@ h1 {
 @media print
 {
     .no-print, .no-print * { display:none; visibility: hidden !important; }
-    body, html, .fill { height: 600mm; }
-    .content .timeline:nth-child(8) {
-        background: url("images/timeline-first.png") no-repeat 522px -6px;
-    }
+    body, html, .fill { height: 602mm; }
+    .pagebreak { page-break-after: always}
+    .row { padding-left: 0px }
 }
 
 @media screen
 {
-    .no-screen, .no-screen * { display:none; visibility: hidden !important; }
-}
-
-.content .curtain {
-    width: 552px;
-}
-
-.content .section {
-    width: 550px;
-}
-
-.content h4 {
-    margin: 0px;
-    margin-top: 30px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid #243140;
-    font-size: 25px;
-}
-
-.content .section img {
-    float: right;
-    width: 36px;
-    height: 36px;
-    background: white;
-    border: 2px solid #243140;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    position: relative;
-    top: 22px;
-    right: 5px;
-}
-
-.content p {
-    color: black;
-    font-size: 15px;
-    padding-left: 25px;
-}
-
-
-.titlebox {
-    margin: 20px 0px 5px 0px;
-    float: left;
-    width: 100%;
-}
-
-.titlebox h3 {
-    color: #b24300;
-    float: left;
-    width: 100%;
-    height: 25px;
-    display: inline;
-    overflow: hidden;
-    margin: 0px;
-    margin-left: 15px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.titlebox h5 {
-    font-size: 16px;
-    width: 50%;
-    margin-left: 15px;
-    float: left;
-    color: #34495e;
-}
-
-.titlebox small {
-    font-size: 14px;
-    /* width: 50%; */
-    float: right;
-    color: #34495e;
-}
-
-.content .technologies {
-    background: url("images/ico-technologies.png") no-repeat 25px 2px;
-    text-indent: 28px;
-}
-
-.content .timeline {
-    background: url("images/timeline.png") no-repeat 522px -6px;
-    padding-right: 35px;
-}
-
-.content .timeline p {     
-    padding-bottom: 0px; 
-}
-
-.content .timeline:last-child, .content .timeline.first {
-    background: url("images/timeline-first.png") no-repeat 522px -6px;
-    padding-right: 35px;
+    .no-screen, .no-screen *, .pagebreak { display:none; visibility: hidden !important; }
 }
