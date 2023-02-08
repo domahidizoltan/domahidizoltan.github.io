@@ -8,23 +8,6 @@ function reveal(cls, tokens) {
     document.getElementsByClassName(cls)[0].innerHTML = field;
 }
 
-function animateCurtain() {
-    var duration = 800;
-    var sideCurtainSelector = '.sidebar .curtain';
-    var contentCurtainSelector = '.content .curtain';
-
-    $(sideCurtainSelector).animate({height: "0px"}, duration, function() {
-        $(sideCurtainSelector).hide();
-        setTimeout(function() {$(contentCurtainSelector).animate({width: "0px"}, duration, function() {
-            $(contentCurtainSelector).hide();
-        })}, duration/4);
-    })
-
-}
-
-
 window.onload = function() {
     reveal('mail', ['a=@', 'd=.', 'm=gmail']);
-
-    setTimeout(animateCurtain, 500)
 }

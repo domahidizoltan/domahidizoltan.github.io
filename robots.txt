@@ -4,3 +4,6 @@ Disallow: /css/
 Noindex: /css/
 Disallow: /js/
 Noindex: /js/
+Disallow: /template.html
+Disallow: /resume.md
+Disallow: /Makefile
