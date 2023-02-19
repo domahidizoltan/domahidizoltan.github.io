@@ -7,7 +7,7 @@ build-html: #REMOVE MY ANALYTICS TOKEN FROM RESUME.MD IF YOU COPY THIS REPO
 		--standalone \
 		--template template.html \
 		--output index.html \
-		resume.md
+		meta.md README.md
 
 build-pdf:
 	# docker run --rm -v "$(d):/data" -w /data icalialabs/wkhtmltopdf \

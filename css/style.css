@@ -27,13 +27,17 @@ p {
     animation-timing-function: ease-out;
 }
 
-.content h4 {
+.content .firstname, .content .lastname {
+    display: inline-block;
     font-size: 40px;
     margin-top: 20px;
+    margin-bottom: 8px;
+    color: #34495e;
 }
 
-.content h4 .firstname {
+.content .firstname {
     color: #b24300;
+    margin-right: 4px;
 }
 
 h1 {
