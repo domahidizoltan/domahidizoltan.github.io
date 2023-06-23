@@ -9,9 +9,10 @@
 ##### @ CIRCL Technologies Ltd  
 <small class="period">Remote, 01/2023 → ...</small>  
 - development and improvement of Proto Energy SaaS product  
-- building the WebSocket API  
+- building the WebSocket API for the event sourcing (and CQRS) based backend  
 - writing and maintaining end-to-end tests  
-- tech stack: <span class="technologies">Go / Golang, Postgres, RabbitMQ, WebSocket, AWS Lambda, <small>AWS, Docker, Cucumber.js, CirclCI, Github</small></span> 
+- proposing code design improvements  
+- tech stack: <span class="technologies">Go / Golang, Postgres, Redis, RabbitMQ, WebSocket, AWS Lambda, <small>AWS, Docker, Cucumber.js, TypeScript, Github</small></span> 
 
 ### Senior Backend Software Engineer / Golang Developer  
 ##### @ Alpaca  
