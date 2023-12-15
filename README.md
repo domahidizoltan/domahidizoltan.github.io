@@ -8,11 +8,12 @@
 ### Senior Backend Software Engineer / Golang Developer  
 ##### @ CIRCL Technologies Ltd  
 <small class="period">Remote, 01/2023 → ...</small>  
-- development and improvement of Proto Energy SaaS product  
+- development and improvement of Proto Energy SaaS product (mostly on payment and sales orders related features)  
 - building the WebSocket API for the event sourcing (and CQRS) based backend  
 - writing and maintaining end-to-end tests  
+- creating the basics of the backend observability with the help of the DevOps team  
 - proposing code design improvements  
-- tech stack: <span class="technologies">Go / Golang, Postgres, Redis, RabbitMQ, WebSocket, AWS Lambda, <small>AWS, Docker, Cucumber.js, TypeScript, Github</small></span> 
+- tech stack: <span class="technologies">Go / Golang, Postgres, Redis, RabbitMQ, WebSocket, AWS Lambda, <small>AWS, Docker, Cucumber.js, TypeScript, Github, Grafana, Terraform</small></span> 
 
 ### Senior Backend Software Engineer / Golang Developer  
 ##### @ Alpaca  
@@ -33,6 +34,8 @@
 - giving a presentation about Kotlin  
 - tech stack: <span class="technologies">Microservices, Kotlin, Spring Boot 2 (Webflux), Reactor, MongoDB, Kafka, MockK, <small>Junit 5, JPA, RabbitMQ, TestContainers, Spring Cloud Stream (both RabbitMQ and Kafka), Kubernetes, Helm, Gradle, Git, GitLab</small></span>  
 
+<p class="pagebreak">&nbsp;</p>
+
 ### Senior Java Software Engineer / Technical Team Lead  
 ##### @ Grape Solutions  
 <small class="period">Budapest (HU), 09/2018 → 04/2019</small>  
@@ -41,8 +44,6 @@
 - improving local development environment, code quality, and testability  
 - mentoring Java developers; giving presentations about TDD & Http-Mocking  
 - tech stack: <span class="technologies">Microservices, Java 11, Spring Boot 2 (Webflux), Reactor, Python, <small>Junit5, JPA, Jooq, Wiremock, Testcontainers, GCP, Docker, Kubernetes, Istio, Gradle, Git</small></span>  
-
-<p class="pagebreak">&nbsp;</p>
 
 ### Senior Java Developer  
 ##### @ Secret Sauce Partners  
