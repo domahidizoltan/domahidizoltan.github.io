@@ -6,8 +6,16 @@
 ## Work Experience  
 
 ### Senior Backend Software Engineer / Golang Developer  
+##### @ Raiffeisen Bank International AG (Freelance)  
+<small class="period">Remote, 02/2024 → ...</small>  
+- design and development of the Group of Connected Customers (read) service. I took the major part of designing this new service what was simple enough to move fast with the implementation, but also complex enough to have some safety mechanisms and be able to handle bigger load than expected.  
+- feature development and maintenance of the Customer Master Data Management system  
+- taking part in technical discussions and helping in system design decisions  
+- tech stack: <span class="technologies">GGo / Golang, Postgres, Gin, Ginkgo, Neo4j graph database, <small>event sourcing, CQRS, DataDog, Java</small></span>  
+
+### Senior Backend Software Engineer / Golang Developer  
 ##### @ CIRCL Technologies Ltd  
-<small class="period">Remote, 01/2023 → ...</small>  
+<small class="period">Remote, 01/2023 → 01/2024</small>  
 - development and improvement of Proto Energy SaaS product (mostly on payment and sales orders related features)  
 - building the WebSocket API for the event sourcing (and CQRS) based backend  
 - writing and maintaining end-to-end tests  
@@ -24,6 +32,8 @@
 - working on subscription management and payment related features  
 - tech stack: <span class="technologies">Microservices, Go / Golang, Postgres, RabbitMQ, gRPC, <small>Testify, Iris, Kubernetes, Helm, Ansible, Google Cloud Platform, Github</small></span>  
 
+<p class="pagebreak">&nbsp;</p>
+
 ### Senior Backend Software Engineer / Kotlin Developer  
 ##### @ Magyar Telekom  
 <small class="period">Budapest (HU), 04/2019 → 06/2021</small>  
@@ -34,8 +44,6 @@
 - giving a presentation about Kotlin  
 - tech stack: <span class="technologies">Microservices, Kotlin, Spring Boot 2 (Webflux), Reactor, MongoDB, Kafka, MockK, <small>Junit 5, JPA, RabbitMQ, TestContainers, Spring Cloud Stream (both RabbitMQ and Kafka), Kubernetes, Helm, Gradle, Git, GitLab</small></span>  
 
-<p class="pagebreak">&nbsp;</p>
-
 ### Senior Java Software Engineer / Technical Team Lead  
 ##### @ Grape Solutions  
 <small class="period">Budapest (HU), 09/2018 → 04/2019</small>  
@@ -44,12 +52,6 @@
 - improving local development environment, code quality, and testability  
 - mentoring Java developers; giving presentations about TDD & Http-Mocking  
 - tech stack: <span class="technologies">Microservices, Java 11, Spring Boot 2 (Webflux), Reactor, Python, <small>Junit5, JPA, Jooq, Wiremock, Testcontainers, GCP, Docker, Kubernetes, Istio, Gradle, Git</small></span>  
-
-### Senior Java Developer  
-##### @ Secret Sauce Partners  
-<small class="period">Budapest (HU), 04/2018 → 09/2018</small>  
-- development and maintenance of Style-Finder, an apparel recommendation system  
-- tech stack: <span class="technologies">Java8, Dropwizard, Guice, Hibernate, PostgreSQL, Spring Boot, <small>Kafka, Docker, Kubernetes, AWS, Python, Avro, Maven, Git, Circle CI, JUnit 5, TDD, CleanCode</small></span>  
 
 ### Senior Java Developer  
 ##### @ Evosoft  
