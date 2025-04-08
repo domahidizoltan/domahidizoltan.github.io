@@ -1,0 +1,170 @@
+html,
+body {
+  min-height: 100%;
+  background-color: #ededed;
+}
+
+p {
+  margin: 0px;
+  padding-bottom: 5px;
+}
+
+.content h1,
+.content h4 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: bold;
+  width: 350px;
+  text-align: right;
+  padding-right: 30px;
+  margin-left: 200px;
+}
+
+.content .firstname,
+.content .lastname {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.content .firstname {
+  margin-right: 4px;
+}
+
+.fill {
+  min-height: 100%;
+}
+
+.mx-auto {
+  width: 800px;
+  background-color: white;
+}
+
+.content {
+  width: 802px;
+  color: #34495e;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  background: #fff;
+}
+
+.content .contact-header {
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #243140;
+  width: 100%;
+}
+.content .contact-header h2 {
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 0px;
+}
+.content .contact-header a {
+  color: #000000;
+  font-size: 14px;
+}
+.content h2 {
+  margin: 0px;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #243140;
+  font-size: 20px;
+}
+
+.content h3 {
+  color: #243140;
+  float: left;
+  width: 100%;
+  height: 25px;
+  display: inline;
+  overflow: hidden;
+  margin: 20px 10px 0px 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content h5 {
+  font-size: 16px;
+  /*width: 245px;*/
+  margin-left: 10px;
+  margin-bottom: 5px;
+  float: left;
+  color: #34495e;
+}
+
+.content p {
+  color: black;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+.content .technologies {
+  font-size: 14px;
+}
+
+.content small.period {
+  font-size: 14px;
+  /*width: 250px;*/
+  float: right;
+  color: #34495e;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.content small.period + br {
+  padding: 7px 0px;
+  content: "";
+  display: block;
+  margin: 30px 0px;
+}
+
+.content p a {
+  color: #34495e;
+  /*text-decoration: underline;*/
+}
+
+.contact i {
+  width: 20px;
+}
+
+@page {
+  size: A4;
+  margin: 1cm;
+}
+
+@media print {
+  a {
+    text-decoration: none;
+  }
+}
+
+.no-print,
+.no-print * {
+  display: none;
+  visibility: hidden !important;
+}
+body,
+html,
+.fill {
+  height: 602mm;
+}
+
+.pagebreak {
+  page-break-after: avoid;
+}
+.pagebreak-ast {
+  page-break-after: always;
+}
+.row {
+  padding-left: 0px;
+}
+
+.no-screen,
+.no-screen *,
+.pagebreak {
+  display: none;
+  visibility: hidden !important;
+}

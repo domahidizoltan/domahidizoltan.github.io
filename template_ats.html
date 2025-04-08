@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>$title$</title>
+  <link href="css/font.css" type="text/css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+  <link href="css/style_ats.css" type="text/css" rel="stylesheet" />
+  <link href="css/fontawesome-all-min.css" rel="stylesheet" />
+  <script src="js/scripts.js"></script>
+
+</head>
+
+<body>
+  <div class="mx-auto fill">
+    <div class="row fill">
+      <div class="content fill">
+
+        <div class="contact-header row">
+          <div style="width: 70%">
+            <h2></h2>
+          </div>
+          <div style="width: 30%">
+            <p class="contact"><i class="fa-solid fa-location-dot"></i><span class="address">Budapest, Hungary</p>
+            <p class="contact"><i class="fa-regular fa-envelope"></i><span
+                class="mail">domahidizoltan|a||m||d|com</span>
+            </p>
+            <p class="contact"><a href="https://www.linkedin.com/in/domahidizoltan" target="_blank"
+                title="Zoltan Domahidi Linkedin profile"><i class="fa-brands fa-linkedin"></i>/in/domahidizoltan</a>
+            </p>
+            <p class="contact"><a href="https://github.com/domahidizoltan" target="_blank"
+                title="Zoltan Domahidi Github profile"><i class="fa-brands fa-square-github"></i>/domahidizoltan</a>
+            </p>
+          </div>
+        </div>
+
+        <p class="summary">$summary$</p>
+
+        <div>$body$</div>
+        <p>&nbsp;</p>
+
+        <h2 style="margin-bottom:10px;">Other skills</h2>
+        <p>
+        <h5 style="width:100%">Languages:</h5>
+        </p>
+        <p>
+          - Hungarian (mother tongue)<br />
+          - English (fluent)<br />
+          - Romanian (proficient)<br />
+        </p>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+<script>
+  h1 = document.getElementsByTagName('h1')[0];
+  document.getElementsByTagName('h2')[0].innerHTML = h1.innerHTML;
+  h1.remove();
+</script>
+
+</html>

@@ -9,6 +9,13 @@ build-html: #REMOVE MY ANALYTICS TOKEN FROM RESUME.MD IF YOU COPY THIS REPO
 		--output index.html \
 		meta.md README.md
 
+build-ats-html:
+	docker run --rm -v "$(d):/data" -w /data pandoc/minimal:latest-alpine \
+		--standalone \
+		--template template_ats.html \
+		--output resume_ats.html \
+		meta.md README.md
+
 build-pdf:
 	# docker run --rm -v "$(d):/data" -w /data icalialabs/wkhtmltopdf \
 	# 	--margin-top 0 \
