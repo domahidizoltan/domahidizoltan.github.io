@@ -18,10 +18,10 @@ p {
 .content h4 {
   font-family: "Maven Pro", sans-serif;
   font-weight: bold;
-  width: 410px;
+  width: 417px;
   text-align: right;
   padding-right: 30px;
-  margin-left: 135px;
+  margin-left: 128px;
 
   animation: backInLeft;
   animation-duration: 1s;
@@ -122,7 +122,7 @@ h1 {
   font-size: 16px;
   /*width: 245px;*/
   margin-left: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   float: left;
   color: #34495e;
 }
@@ -130,7 +130,11 @@ h1 {
 .content p {
   color: black;
   font-size: 14px;
-  padding: 0px 20px;
+  padding: 50px 20px 0px 20px;
+}
+
+.content p:nth-last-child(5) {
+  padding-top: 0px;
 }
 
 .content .technologies {
@@ -143,16 +147,18 @@ h1 {
   float: right;
   color: #34495e;
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   text-align: right;
+  position: relative;
+  top: -5px;
 }
 
-.content small.period + br {
-  padding: 7px 0px;
-  content: "";
-  display: block;
-  margin: 30px 0px;
-}
+/* .content small.period > br { */
+/*   padding: 7px 0px; */
+/*   content: ""; */
+/*   display: block; */
+/*   margin: 30px 0px; */
+/* } */
 
 .content p a {
   color: #34495e;
@@ -212,6 +218,8 @@ h1 {
   color: white;
   padding: 2px 0px 2px 33px;
   background: no-repeat 0px 2px;
+  display: inline-block;
+  width: 215px;
 }
 
 .pdf,
@@ -344,6 +352,9 @@ h1 {
   .pagebreak {
     page-break-after: always;
   }
+  .pagebreak-ats {
+    display: none;
+  }
   .row {
     padding-left: 0px;
   }
@@ -352,7 +363,8 @@ h1 {
 @media screen {
   .no-screen,
   .no-screen *,
-  .pagebreak {
+  .pagebreak,
+  .pagebreak-ats {
     display: none;
     visibility: hidden !important;
   }
